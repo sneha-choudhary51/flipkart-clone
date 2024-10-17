@@ -1,0 +1,101 @@
+.flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+     /* font-family: 'Autour One', cursive; */
+
+    
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    font-weight:bold;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #signin li a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #signin li a:hover {
+    font-weight:bold;
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(51, 82, 97);
+  }
+  
+  .ftr_items a:link {
+    color: #ccc;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .ftr_items a:hover {
+    font-weight: normal;
+    background-color: transparent;
+    text-decoration: underline;
+    
+  }
+  .ftr_items a:visited {
+    color: #ccc;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  .festive_edition img{
+    transition: transform .6s ease-in;
+    will-change: transform;
+  }
+  .festive_edition img:hover {
+    transform: scale(1.02);
+  }
+  .slider1 img{
+    transition: transform .6s ease-in;
+    will-change: transform;
+  }
+  .slider1 img:hover {
+    transform: scale(1.02);
+  }
+  .slider2 img{
+    transition: transform .6s ease-in;
+    will-change: transform;
+  }
+  .slider2 img:hover {
+    transform: scale(1.02);
+  }
+  /* .innerbox1 img{
+    transition: transform .6s ease-in;
+    will-change: transform;
+  }
+  .innerbox1 img:hover {
+    transform: scale(1.02);
+  } */
+  .innerbox1 img, .innerbox2 img, .innerbox3 img, .box4 img{
+    transition: transform .6s ease-in;
+    will-change: transform;
+  }
+  .innerbox1 img:hover, .innerbox2 img:hover, .innerbox3 img:hover, .box4 img:hover{
+    transform: scale(1.02);
+  }
+  /* another method for the same */
+  /* .slider2 img{
+    transition: scale .6s ease-in;
+    will-change: scale;
+  }
+  .slider2 img:hover {
+     scale: 1.02;
+  } */
+ 
